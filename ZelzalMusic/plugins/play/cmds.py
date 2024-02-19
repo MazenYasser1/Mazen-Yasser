@@ -39,7 +39,7 @@ async def zdatsr(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
                     InlineKeyboardButton(
-                        "✧ Design CH ✧", url="https://t.me/eirux"),
+                        "✧ المطور ✧", url="https://t.me/m_lr1"),
                 ],
             ]
         ),
@@ -52,13 +52,13 @@ async def zilzal(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     async for photo in client.iter_profile_photos(OWNER_ID, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""ٴ<b>✧────‌‌‏✯ 𝐌𝐚𝐳𝐞𝐧 𝐌𝐮𝐬𝐢𝐜 ✯──‌‌‏─‌‌‏─✧</b>
+                    await message.reply_photo(photo.file_id,       caption=f"""ٴ<b>ٴ⋆┄─┄─┄─┄┄─┄─┄─┄⋆</b>
                     
 - المطور :[{usr.first_name}](https://t.me/{OWNER})
 - اليوزر :@{usrnam} 
 - الايدي :`{usr.id}`
  
-ٴ<b>✧────‌‌‏✯ 𝐌𝐚𝐳𝐞𝐧 𝐌𝐮𝐬𝐢𝐜 ✯──‌‌‏─‌‌‏─✧</b> """, 
+ٴ<b>ٴ⋆┄─┄─┄─┄┄─┄─┄─┄⋆</b> """, 
 reply_markup=InlineKeyboardMarkup(
           [               
             [            

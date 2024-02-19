@@ -33,7 +33,7 @@ from config import BANNED_USERS, lyrical
 @app.on_message(
     command(
         [
-            "شغل",
+            "ش",
             "تشغيل",
             "فيديو",
             "/play",
@@ -67,7 +67,7 @@ async def play_commnd(
     slider = None
     plist_type = None
     spotify = None
-    user_id = message.from_user.id if message.from_user else "1121532100"
+    user_id = message.from_user.id if message.from_user else "6456641797"
     user_name = message.from_user.first_name if message.from_user else "None"
     audio_telegram = (
         (message.reply_to_message.audio or message.reply_to_message.voice)
